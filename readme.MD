@@ -2,4 +2,4 @@
 
 Maintained by brnwx
 
-Use `docker build -t "conatiner-template" to build an image`
+Use `docker build -t "conatiner-template"` to build an image

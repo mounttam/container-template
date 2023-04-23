@@ -55,9 +55,8 @@ RUN useradd -m -s /bin/bash user
 # Set the working directory
 WORKDIR /home/user
 
-# Install NOSCL
-RUN mkdir -p .config/nostr
-RUN go install github.com/fiatjaf/noscl@latest
+# Optionally install software or make changes to the user folder here
+#
 
 #Change ownership of Home directory
 RUN chown -R user /home/user

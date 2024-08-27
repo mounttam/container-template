@@ -1,6 +1,6 @@
 ## A sample Docker container template conatining Python and Go
 
-Maintained by brnwx
+Maintained by mounttam
 
 Use `docker build -t container-template .` to build an image
 
